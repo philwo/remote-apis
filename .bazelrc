@@ -1,2 +1,5 @@
+# Disable Bzlmod until we're ready to migrate.
+common --enable_bzlmod=true
+
 # Include comments in generated code for godoc.
 build --experimental_proto_descriptor_sets_include_source_info
